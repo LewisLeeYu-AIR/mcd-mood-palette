@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect width="880" height="300" rx="14" fill="#FFFDF8" stroke="#F0E6D2" stroke-width="1.5"/>
+  <text x="32" y="40" font-size="17" font-weight="700" fill="#3D2B1F">五步工作流</text>
+  <text x="32" y="63" font-size="12.5" fill="#8A7A6A">脚本管数字 · LLM 管语义 ｜ 写操作三步强制确认</text>
+
+  <g font-size="12.5" fill="#5A4632">
+    <rect x="32" y="92" width="146" height="86" rx="10" fill="#FFF3E0" stroke="#F0CFA0"/>
+    <text x="52" y="122" font-weight="700" font-size="13.5" fill="#B4690E">① 采集</text>
+    <text x="52" y="144" font-size="11.5" fill="#7A6A58">两轮选择题</text>
+    <text x="52" y="162" font-size="11.5" fill="#7A6A58">心情 + 训练 + 档案</text>
+
+    <rect x="202" y="92" width="146" height="86" rx="10" fill="#FFF3E0" stroke="#F0CFA0"/>
+    <text x="222" y="122" font-weight="700" font-size="13.5" fill="#B4690E">② 推荐</text>
+    <text x="222" y="144" font-size="11.5" fill="#7A6A58">情绪色 + 营养带</text>
+    <text x="222" y="162" font-size="11.5" fill="#7A6A58">3 款搭配卡片</text>
+
+    <rect x="372" y="92" width="146" height="86" rx="10" fill="#FFF3E0" stroke="#F0CFA0"/>
+    <text x="392" y="122" font-weight="700" font-size="13.5" fill="#B4690E">③ 算价</text>
+    <text x="392" y="144" font-size="11.5" fill="#7A6A58">选店 → 真实菜单复核</text>
+    <text x="392" y="162" font-size="11.5" fill="#7A6A58">calculate-price</text>
+
+    <rect x="542" y="92" width="146" height="86" rx="10" fill="#FFEFE6" stroke="#EFA983"/>
+    <text x="562" y="122" font-weight="700" font-size="13.5" fill="#C0451A">④ 确认</text>
+    <text x="562" y="144" font-size="11.5" fill="#8A6A58">订单复述表格</text>
+    <text x="562" y="162" font-size="11.5" fill="#8A6A58">「确认下单」才提交</text>
+
+    <rect x="712" y="92" width="136" height="86" rx="10" fill="#FFEFE6" stroke="#EFA983"/>
+    <text x="732" y="122" font-weight="700" font-size="13.5" fill="#C0451A">⑤ 跟踪</text>
+    <text x="732" y="144" font-size="11.5" fill="#8A6A58">支付引导</text>
+    <text x="732" y="162" font-size="11.5" fill="#8A6A58">query-order</text>
+  </g>
+
+  <g stroke="#D8C6A8" stroke-width="1.6" fill="none">
+    <path d="M178 135 L202 135" marker-end="url(#a)"/>
+    <path d="M348 135 L372 135" marker-end="url(#a)"/>
+    <path d="M518 135 L542 135" marker-end="url(#a)"/>
+    <path d="M688 135 L712 135" marker-end="url(#a)"/>
+  </g>
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#D8C6A8"/>
+    </marker>
+  </defs>
+
+  <g font-size="12" fill="#7A6A58">
+    <rect x="32" y="204" width="816" height="64" rx="10" fill="#FBF7EF" stroke="#EFE4D2"/>
+    <text x="52" y="228" font-weight="700" fill="#5A4632" font-size="12.5">五场景下单</text>
+    <text x="52" y="250">到店自取 · 得来速 · 麦乐送外送 · 预约点餐 · 企业团餐（官方 5 档预算规则 + 预算硬校验）</text>
+  </g>
+</svg>
