@@ -1,0 +1,2 @@
+# 参赛声明必须与官方逐字节一致（CRLF 原样保留，禁止 git 行尾转换）
+CONTEST_DECLARATION.md -text

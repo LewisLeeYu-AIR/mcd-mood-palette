@@ -1,0 +1,433 @@
+{
+  "version": 3,
+  "source_note": "预置全国通用高频套餐参考库。构成提取自门店 query-meal-detail（storeCode=1421094，2026-10-10），价格与营养为参考值；换子项后热量按营养库子项差值计算。价格与可点性以门店实时菜单为准，选店后须用 query-meals 复核。 2026-10-11 增补：早餐套餐 2 款（枫糖厚松饼三件套全天供应）；swappable 增加 protein_delta。",
+  "halo_scores": {
+    "爆款": 1.0,
+    "人气": 0.8,
+    "经典": 0.7,
+    "新品": 0.6,
+    "普通": 0.5
+  },
+  "meals": [
+    {
+      "name": "龙焰鸡腿堡三件套",
+      "menu_code_hint": "9900016073",
+      "composition": [
+        "龙焰鸡腿堡",
+        "中薯条",
+        "可乐中杯"
+      ],
+      "nutrition": {
+        "kcal": 921,
+        "protein_g": 28,
+        "estimated": true,
+        "note": "龙焰鸡腿堡营养未收录，按同类鸡腿堡估"
+      },
+      "price_ref": 26.9,
+      "original_price_ref": 48.0,
+      "tags": [
+        "explore_new",
+        "celebrate"
+      ],
+      "halo": "人气",
+      "periods": [
+        "lunch",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "side",
+          "from": "中薯条",
+          "to": "小杯玉米杯",
+          "kcal_delta": -236,
+          "price_delta": -1,
+          "protein_delta": -2.0
+        },
+        {
+          "slot": "drink",
+          "from": "可乐中杯",
+          "to": "无糖可口可乐中杯",
+          "kcal_delta": -147,
+          "price_delta": 0,
+          "protein_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "精选单人餐三件套",
+      "menu_code_hint": "9900004064",
+      "composition": [
+        "板烧鸡腿堡",
+        "中薯条",
+        "可乐中杯"
+      ],
+      "nutrition": {
+        "kcal": 827,
+        "protein_g": 27,
+        "estimated": false
+      },
+      "price_ref": 34.5,
+      "original_price_ref": 46.5,
+      "tags": [
+        "cozy_classic",
+        "celebrate"
+      ],
+      "halo": "爆款",
+      "periods": [
+        "lunch",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "side",
+          "from": "中薯条",
+          "to": "小杯玉米杯",
+          "kcal_delta": -236,
+          "price_delta": -1,
+          "protein_delta": -2.0
+        },
+        {
+          "slot": "drink",
+          "from": "可乐中杯",
+          "to": "无糖可口可乐中杯",
+          "kcal_delta": -147,
+          "price_delta": 0,
+          "protein_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "麦香鸡中套餐",
+      "menu_code_hint": "9900005453",
+      "composition": [
+        "麦香鸡",
+        "中薯条",
+        "可乐中杯"
+      ],
+      "nutrition": {
+        "kcal": 805,
+        "protein_g": 19,
+        "estimated": false
+      },
+      "price_ref": 27.5,
+      "original_price_ref": 40.5,
+      "tags": [
+        "cozy_classic"
+      ],
+      "halo": "经典",
+      "periods": [
+        "lunch",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "side",
+          "from": "中薯条",
+          "to": "小杯玉米杯",
+          "kcal_delta": -236,
+          "price_delta": -1,
+          "protein_delta": -2.0
+        },
+        {
+          "slot": "drink",
+          "from": "可乐中杯",
+          "to": "无糖可口可乐中杯",
+          "kcal_delta": -147,
+          "price_delta": 0,
+          "protein_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "人气超值四件套随心选",
+      "menu_code_hint": "9900004236",
+      "composition": [
+        "麦辣鸡腿汉堡",
+        "中薯条",
+        "麦乐鸡4块",
+        "可乐中杯"
+      ],
+      "nutrition": {
+        "kcal": 1091,
+        "protein_g": 38,
+        "estimated": false
+      },
+      "price_ref": 28.0,
+      "original_price_ref": 57.5,
+      "tags": [
+        "celebrate",
+        "energy_boost"
+      ],
+      "halo": "人气",
+      "periods": [
+        "lunch",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "side",
+          "from": "中薯条",
+          "to": "小杯玉米杯",
+          "kcal_delta": -236,
+          "price_delta": -1,
+          "protein_delta": -2.0
+        },
+        {
+          "slot": "drink",
+          "from": "可乐中杯",
+          "to": "无糖可口可乐中杯",
+          "kcal_delta": -147,
+          "price_delta": 0,
+          "protein_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "大堡口福三件套",
+      "menu_code_hint": "9900015602",
+      "composition": [
+        "Hold不住鸡排堡（椒盐风味）",
+        "中薯条",
+        "可乐中杯"
+      ],
+      "nutrition": {
+        "kcal": 916,
+        "protein_g": 24,
+        "estimated": true,
+        "note": "鸡排堡营养未收录，按同类鸡排堡估"
+      },
+      "price_ref": 22.9,
+      "original_price_ref": 47.5,
+      "tags": [
+        "celebrate",
+        "share_fun"
+      ],
+      "halo": "人气",
+      "periods": [
+        "lunch",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "side",
+          "from": "中薯条",
+          "to": "小杯玉米杯",
+          "kcal_delta": -236,
+          "price_delta": -1,
+          "protein_delta": -2.0
+        },
+        {
+          "slot": "drink",
+          "from": "可乐中杯",
+          "to": "无糖可口可乐中杯",
+          "kcal_delta": -147,
+          "price_delta": 0,
+          "protein_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BFF四宫格小食盘",
+      "menu_code_hint": "9900015730",
+      "composition": [
+        "麦辣鸡翅-2块",
+        "麦乐鸡5块",
+        "脆皮鸡柳3根",
+        "小薯条"
+      ],
+      "nutrition": {
+        "kcal": 877,
+        "protein_g": 41,
+        "estimated": true,
+        "note": "脆皮鸡柳营养未收录，按同类小食估"
+      },
+      "price_ref": 39.8,
+      "original_price_ref": 54.5,
+      "tags": [
+        "share_fun"
+      ],
+      "halo": "人气",
+      "periods": [
+        "lunch",
+        "dinner"
+      ],
+      "swappable": []
+    },
+    {
+      "name": "世界波犇牛堡两件套",
+      "menu_code_hint": "9900014550",
+      "composition": [
+        "世界波犇牛堡",
+        "可乐中杯"
+      ],
+      "nutrition": {
+        "kcal": 697,
+        "protein_g": 30,
+        "estimated": true,
+        "note": "犇牛堡营养未收录，按双层牛肉堡估"
+      },
+      "price_ref": 28.9,
+      "original_price_ref": 41.0,
+      "tags": [
+        "energy_boost",
+        "explore_new"
+      ],
+      "halo": "新品",
+      "periods": [
+        "lunch",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "drink",
+          "from": "可乐中杯",
+          "to": "无糖可口可乐中杯",
+          "kcal_delta": -147,
+          "price_delta": 0,
+          "protein_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "枫糖风味厚松饼猪柳堡三件套",
+      "menu_code_hint": "9900014974",
+      "composition": [
+        "枫糖风味厚松饼猪柳堡",
+        "脆薯饼",
+        "小杯鲜萃咖啡"
+      ],
+      "nutrition": {
+        "kcal": 555,
+        "protein_g": 17,
+        "estimated": true,
+        "note": "枫糖厚松饼猪柳堡未收录按同类估 400kcal/15g；鲜萃冰咖按黑咖估 5kcal；全天供应"
+      },
+      "price_ref": 23.9,
+      "original_price_ref": 36.0,
+      "tags": [
+        "explore_new",
+        "celebrate"
+      ],
+      "halo": "新品",
+      "periods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "side",
+          "from": "脆薯饼",
+          "to": "小杯玉米杯",
+          "kcal_delta": -93,
+          "price_delta": -1,
+          "protein_delta": 1.0
+        }
+      ]
+    },
+    {
+      "name": "猪柳蛋麦满分套餐",
+      "menu_code_hint": "9900003458",
+      "composition": [
+        "猪柳蛋麦满分",
+        "脆薯饼",
+        "小杯鲜萃咖啡"
+      ],
+      "nutrition": {
+        "kcal": 542,
+        "protein_g": 25,
+        "estimated": true,
+        "note": "鲜萃冰咖未收录按黑咖估 5kcal；价格用无早餐卡口径 26.5（早餐卡价 15.9）"
+      },
+      "price_ref": 26.5,
+      "original_price_ref": 36.0,
+      "tags": [
+        "cozy_classic",
+        "energy_boost"
+      ],
+      "halo": "经典",
+      "periods": [
+        "breakfast"
+      ],
+      "swappable": [
+        {
+          "slot": "side",
+          "from": "脆薯饼",
+          "to": "脆香油条",
+          "kcal_delta": 56,
+          "price_delta": 0,
+          "protein_delta": 4.0
+        },
+        {
+          "slot": "side",
+          "from": "脆薯饼",
+          "to": "德式图林根香肠",
+          "kcal_delta": -59,
+          "price_delta": 1.5,
+          "protein_delta": 4.0
+        }
+      ]
+    },
+    {
+      "name": "人气经典随心配 1+1",
+      "menu_code_hint": "9900013304",
+      "composition": [
+        "双层吉士汉堡",
+        "阳光柠檬红茶中杯"
+      ],
+      "nutrition": {
+        "kcal": 546,
+        "protein_g": 27.0,
+        "estimated": false,
+        "note": "蓝粉两区各选 1 件；默认双层吉士+柠檬红茶，两区多数选项 +¥0/-¥1 换"
+      },
+      "price_ref": 14.9,
+      "original_price_ref": 21.5,
+      "tags": [
+        "light_easy",
+        "share_fun"
+      ],
+      "halo": "爆款",
+      "periods": [
+        "breakfast",
+        "lunch",
+        "afternoon",
+        "dinner"
+      ],
+      "swappable": [
+        {
+          "slot": "blue",
+          "from": "双层吉士汉堡",
+          "to": "麦香鸡",
+          "kcal_delta": -60,
+          "price_delta": -1,
+          "protein_delta": -12.0
+        },
+        {
+          "slot": "blue",
+          "from": "双层吉士汉堡",
+          "to": "酥酥多笋卷",
+          "kcal_delta": -87,
+          "price_delta": -1,
+          "protein_delta": -13.0
+        },
+        {
+          "slot": "pink",
+          "from": "阳光柠檬红茶中杯",
+          "to": "小杯玉米杯",
+          "kcal_delta": -64,
+          "price_delta": 0,
+          "protein_delta": 2.0
+        },
+        {
+          "slot": "pink",
+          "from": "阳光柠檬红茶中杯",
+          "to": "无糖可口可乐中杯",
+          "kcal_delta": -117,
+          "price_delta": 0,
+          "protein_delta": 0
+        }
+      ]
+    }
+  ]
+}

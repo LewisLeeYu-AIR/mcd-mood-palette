@@ -1,0 +1,20 @@
+# 运行时数据（含用户个人档案与缓存，严禁入库）
+data/
+
+# 本地含真实 Token 的配置（严禁入库）
+mcp-config.json
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

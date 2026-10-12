@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "description": "情绪 → 体验标签 → 色彩 → 话术映射表。情绪是体验偏好信号，不是进食动机；全部话术遵循体验匹配框架。",
+  "framework_note": "统一总话术：今天的心情，值得一份什么样的麦麦。",
+  "moods": [
+    {
+      "mood_key": "energized",
+      "chip_text": "元气满满，状态在线",
+      "experience_tag": "energy_boost",
+      "tag_display": "能量满格",
+      "colors": [
+        "活力橙",
+        "满分金"
+      ],
+      "palette_copy": "状态在线的一天，给身体配一顿跟得上节奏的能量组合。",
+      "combo_hints": {
+        "category_weights": {
+          "main": 0.55,
+          "side": 0.2,
+          "drink": 0.15,
+          "dessert": 0.1
+        },
+        "prefer": [
+          "高蛋白主餐",
+          "常规碳水"
+        ]
+      }
+    },
+    {
+      "mood_key": "cozy",
+      "chip_text": "平静惬意，想舒服一点",
+      "experience_tag": "light_easy",
+      "tag_display": "轻盈舒适",
+      "colors": [
+        "奶油白",
+        "暖阳黄"
+      ],
+      "palette_copy": "想轻盈一点的日子，就配一份清爽不厚重的组合。",
+      "combo_hints": {
+        "category_weights": {
+          "main": 0.35,
+          "side": 0.25,
+          "drink": 0.3,
+          "dessert": 0.1
+        },
+        "prefer": [
+          "轻食主餐",
+          "沙拉卷类",
+          "咖啡茶饮"
+        ],
+        "penalty_keywords": [
+          "双层",
+          "大薯",
+          "大杯",
+          "安格斯",
+          "不素之霸"
+        ]
+      }
+    },
+    {
+      "mood_key": "celebrate",
+      "chip_text": "达成小事，值得庆祝",
+      "experience_tag": "celebrate",
+      "tag_display": "仪式犒赏",
+      "colors": [
+        "焦糖棕",
+        "薯条金"
+      ],
+      "palette_copy": "小成就也值得被认真对待，来一份有仪式感的招牌组合。",
+      "combo_hints": {
+        "category_weights": {
+          "main": 0.5,
+          "side": 0.25,
+          "drink": 0.15,
+          "dessert": 0.1
+        },
+        "prefer": [
+          "招牌汉堡",
+          "套餐完整度",
+          "经典搭配"
+        ]
+      }
+    },
+    {
+      "mood_key": "steady",
+      "chip_text": "有点疲惫，想吃点熟悉稳妥的",
+      "experience_tag": "cozy_classic",
+      "tag_display": "温暖熟悉",
+      "colors": [
+        "燕麦白",
+        "薯条金"
+      ],
+      "palette_copy": "低电量的日子，交给不会出错的经典老朋友。",
+      "combo_hints": {
+        "category_weights": {
+          "main": 0.5,
+          "side": 0.25,
+          "drink": 0.2,
+          "dessert": 0.05
+        },
+        "prefer": [
+          "经典款",
+          "固定搭配",
+          "热饮"
+        ],
+        "penalty_keywords": [
+          "新品",
+          "联名",
+          "限定",
+          "厚松饼",
+          "龙焰",
+          "泷"
+        ]
+      }
+    },
+    {
+      "mood_key": "share",
+      "chip_text": "想和朋友分享快乐",
+      "experience_tag": "share_fun",
+      "tag_display": "欢聚分享",
+      "colors": [
+        "番茄红",
+        "可乐棕"
+      ],
+      "palette_copy": "快乐加倍最好的方式，是和喜欢的人分着吃。",
+      "combo_hints": {
+        "category_weights": {
+          "main": 0.3,
+          "side": 0.4,
+          "drink": 0.2,
+          "dessert": 0.1
+        },
+        "prefer": [
+          "小食拼盘",
+          "多件分享",
+          "组合装"
+        ]
+      }
+    },
+    {
+      "mood_key": "explore",
+      "chip_text": "想尝点新鲜花样",
+      "experience_tag": "explore_new",
+      "tag_display": "尝新探索",
+      "colors": [
+        "莓果紫",
+        "冰爽蓝"
+      ],
+      "palette_copy": "好奇心在线，今天的调色盘留给新口味。",
+      "combo_hints": {
+        "category_weights": {
+          "main": 0.45,
+          "side": 0.2,
+          "drink": 0.2,
+          "dessert": 0.15
+        },
+        "prefer": [
+          "新品",
+          "联名款",
+          "季节限定"
+        ]
+      }
+    }
+  ]
+}

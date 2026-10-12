@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "description": "健身目标 × 当日训练状态 → 单餐热量/蛋白质参考区间。数值为大众健身场景的宽松参考，非专业营养处方；免责声明见 disclaimer。",
+  "disclaimer": "营养区间仅供参考，不构成营养或医疗建议。实际需求因人而异，请结合自身情况判断。",
+  "bands": {
+    "减脂": {
+      "base": { "kcal_range": [450, 650], "protein_min": 25 },
+      "training_modifiers": {
+        "力量": { "protein_delta": 10, "kcal_upper_delta": 150 },
+        "有氧": { "protein_delta": 5, "kcal_upper_delta": 100 },
+        "休息日": { "protein_delta": 0, "kcal_upper_delta": 0 }
+      }
+    },
+    "增肌": {
+      "base": { "kcal_range": [650, 950], "protein_min": 35 },
+      "training_modifiers": {
+        "力量": { "protein_delta": 10, "kcal_upper_delta": 150 },
+        "有氧": { "protein_delta": 5, "kcal_upper_delta": 100 },
+        "休息日": { "protein_delta": 0, "kcal_upper_delta": 0 }
+      }
+    },
+    "保持": {
+      "base": { "kcal_range": [500, 900], "protein_min": 20 },
+      "training_modifiers": {
+        "力量": { "protein_delta": 10, "kcal_upper_delta": 150 },
+        "有氧": { "protein_delta": 5, "kcal_upper_delta": 100 },
+        "休息日": { "protein_delta": 0, "kcal_upper_delta": 0 }
+      }
+    }
+  },
+  "period_adjust": {
+    "breakfast": { "kcal_scale": 0.7, "note": "早餐热量区间按 0.7 缩放" },
+    "lunch": { "kcal_scale": 1.0 },
+    "afternoon": { "kcal_scale": 0.5, "note": "下午茶按加餐处理" },
+    "dinner": { "kcal_scale": 0.9 }
+  }
+}
